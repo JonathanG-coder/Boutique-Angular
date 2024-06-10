@@ -1,0 +1,11 @@
+<div class="panier-container">
+    <mat-card-header class="headerPanier">
+        <h2>Nombre d'article(s) dans le panier : {{ nbrTotalItem }}</h2>
+    </mat-card-header>
+</div>
+<app-list-item-panier-view></app-list-item-panier-view>
+<div class="totalPanier">
+    <mat-card>
+        <h2>Total du panier : {{ prixTotalPanier.toFixed(2) }} $</h2>
+    </mat-card>
+</div>

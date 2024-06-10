@@ -1,0 +1,11 @@
+<h2>Nombre d'articles disponibles : {{ articleCount }}</h2>
+<div class="conteneur-principal">
+  <div class="conteneur-interne">
+    <app-list-article [articles]="articlesAch" (hello)="testRetourEnfant($event)"></app-list-article>
+  </div>
+  <div class="conteneur-interne">
+    <app-panier-view></app-panier-view>
+  </div>
+</div>
+
+

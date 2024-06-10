@@ -1,0 +1,13 @@
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteneur-interne {
+  flex-basis: calc(50% - 10px);
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  position: relative;
+}

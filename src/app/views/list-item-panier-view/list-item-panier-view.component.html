@@ -1,0 +1,19 @@
+<div class="panier-container" *ngFor="let item of itemsPanier">
+  <div class="conteneur-interne">
+    <div class="conteneur-boutton">
+      <button mat-icon-button (click)="addArticle(item.article)">
+        <mat-icon>add_circle</mat-icon>
+      </button>
+    </div>
+    <div class="conteneur-boutton">
+      <button mat-icon-button (click)="removeArticle(item.article)">
+        <mat-icon>remove_circle_outline</mat-icon>
+      </button>
+    </div>
+  </div>
+  <div class="conteneur-interne">
+    <p>Article : {{item.article.nom}}</p>
+    <p>Nombre d'article(s): {{item.nbarticles}}</p>
+    <p>Total : {{ item.getTotalPrix().toFixed(2) }} $</p>
+  </div>
+</div>

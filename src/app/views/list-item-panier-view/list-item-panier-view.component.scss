@@ -1,0 +1,20 @@
+.panier-container {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black; 
+}
+
+.conteneur-interne {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteneur-boutton {
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
