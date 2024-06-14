@@ -22,4 +22,5 @@ export class CardArticleComponent {
   addToPanier() {
     this.panierService.addArticle(this.article);
   }
+  
 }
