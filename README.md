@@ -1,6 +1,7 @@
 ## Divers&Shop
 
 Dans  le cadre de ma formation de Concepteur Développeur d'Application, réalisation d'un projet sous Angular.
+
 projet : Une boutique qui présente des articles avec possibilité d'ajouter et supprimer du panier.
 
 Image du rendu de mon projet : 
