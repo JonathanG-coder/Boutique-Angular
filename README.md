@@ -7,9 +7,9 @@ projet : Une boutique qui présente des articles avec possibilité d'ajouter et 
 Image du rendu de mon projet : 
 
 <img width="944" alt="image" src="https://github.com/JonathanG-coder/Boutique-Angular/assets/159537523/69884b41-710e-4f39-b6c0-04f11b2feec8">
-.
 
-
+<br>
+<br>
 
 Indication du projet : 
 
