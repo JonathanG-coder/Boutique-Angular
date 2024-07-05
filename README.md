@@ -1,4 +1,14 @@
-# MyApp2
+## Divers&Shop
+
+Dans  le cadre de ma formation de Concepteur Développeur d'Application, réalisation d'un projet sous Angular.
+projet : Une boutique qui présente des articles avec possibilité d'ajouter et supprimer du panier.
+
+Image du rendu de mon projet : 
+
+<img width="944" alt="image" src="https://github.com/JonathanG-coder/Boutique-Angular/assets/159537523/69884b41-710e-4f39-b6c0-04f11b2feec8">
+
+
+Indication du projet : 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
