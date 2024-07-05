@@ -1,9 +1,25 @@
-.conteneur-principal {
-  display: flex;
+.PrstArticle {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
-.conteneur-interne {
+.PrstArticle h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+.conteneur-principal {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteneur-interne1,
+.conteneur-interne2 {
   flex: 1;
-  height: auto;
-  margin-right: 10px;
+  min-width: 300px;
 }
